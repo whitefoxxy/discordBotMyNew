@@ -39,7 +39,7 @@ async def startqqqq(ctx, *name):
 
 @bot.command(name='играть')
 async def startqqqqq(ctx, *, name):
-    music_source = FFmpegPCMAudio(source=f'music/{name}.mp3', executable='ffmpeg.exe')
+    music_source = FFmpegPCMAudio(source=f'music/{name}.mp3')
     key.vc.play(music_source)
 
 
